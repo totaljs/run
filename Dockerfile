@@ -1,5 +1,5 @@
 FROM node:19-alpine
-RUN apk update && apk add bash
+RUN apk update && apk add bash && apk add zip && apk add graphicsmagick
 
 WORKDIR /www
 
