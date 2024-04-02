@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM node:lts-alpine
 RUN apk update && apk add bash && apk add zip && apk add unzip && apk add tar && apk add graphicsmagick
 
 WORKDIR /www
